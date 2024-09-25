@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "es2022",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitThis": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitReturns": false,
+        "strictNullChecks": false,
+        "strictPropertyInitialization": false,
+        "useDefineForClassFields": false,
+        "downlevelIteration": true,
+        "paths": {
+            "$amplify/*": ["../.amplify/generated/*"]
+        },
+        "outDir": "./dist"
+    }
+}
