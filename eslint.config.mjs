@@ -39,7 +39,7 @@ export default [
             ...stylisticRecommended.plugins,
         },
         rules: {
-            'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+            // 'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
             ...stylisticRecommended.rules,
             '@stylistic/arrow-parens': ['error', 'always'],
             '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
@@ -47,6 +47,7 @@ export default [
             '@typescript-eslint/explicit-function-return-type': 'off',
             '@typescript-eslint/explicit-module-boundary-types': 'off',
             '@typescript-eslint/no-explicit-any': 'off',
+            'no-unused-vars': 'off',
         },
     },
     {
